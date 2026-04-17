@@ -1,0 +1,13 @@
+{
+  "name": "job-counter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Australian job counter widget — Adzuna-backed, refreshed every 48h, embeddable in WordPress.",
+  "scripts": {
+    "fetch": "node scripts/fetch-count.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
